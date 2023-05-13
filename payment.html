@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Page</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+		body {
+			background-color: #f0f0f0;
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+		
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			color: #0070c0;
+		}
+		
+		form {
+			width: 400px;
+			margin: 0 auto;
+			padding: 20px;
+			border-radius: 5px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		
+		input[type="radio"] {
+			margin-right: 10px;
+		}
+		
+		input[type="submit"] {
+			background-color: #0070c0;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			margin-top: 20px;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #005192;
+		}
+	</style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>LabEase</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/Users/bhavikbhuva/Documents/dProject2/home.html">Home</a></li>
+                <li><a href="#myfooter">About Us</a></li>
+                <li><a href="/Users/bhavikbhuva/Documents/dProject2/login.html">Log In/Register</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+	<h1>Payment Page</h1>
+	<form>
+		<label>
+			<input type="radio" name="payment_method" value="qr_code">
+			<img src="qr1.jpg" alt="QR Code" height="400px">
+		</label>
+		<label>
+			<input type="radio" name="payment_method" value="cash_on_delivery">
+			Cash on Delivery
+		</label>
+		<input type="submit" value="Submit">
+	</form>
+
+
+
+    <footer class="text-center text-lg-start bg-light text-muted" id="myfooter">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            
+                <h2 class="text-uppercase fw-bold mb-4">Contact Us</h2>
+                <p><i class="fas fa-home me-3"></i> Sukhpar Bhuj Kachchh 370040</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  ibhavikbhuva@icloud.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 91 7201 9494 64</p>
+                <p><i class="fas fa-print me-3"></i> + 91 9712 0817 20</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold">LabEase </a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
